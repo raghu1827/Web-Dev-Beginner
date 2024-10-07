@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebFolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header-->
+    <header>
+      <div>
+        <h1 class="web-name">Webfolio</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- About Section -->
+      <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <p>
+            Hi, I’m Raghavendra, a passionate front-end web developer with a
+            focus on building responsive and dynamic websites. I enjoy creating
+            user-friendly interfaces that not only look great but are also
+            accessible and functional across all devices.
+          </p>
+          <p>
+            With expertise in HTML5, CSS3, JavaScript, and React, I’m always
+            excited to take on new challenges that allow me to grow and refine
+            my skills. I believe in writing clean, efficient code while keeping
+            the user experience at the forefront of every project.
+          </p>
+          <p>
+            When I’m not coding, you can find me exploring new technologies,
+            working on personal projects, or learning more about UX/UI design to
+            deliver seamless digital experiences. I’m always open to new
+            opportunities and love collaborating with others to create something
+            impactful.
+          </p>
+        </div>
+      </section>
+
+      <!-- Skill Section -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <i class="devicon-html5-plain" aria-hidden="true"></i>
+            <!-- Icon for HTML -->
+            <p>HTML5</p>
+          </div>
+          <div class="skill">
+            <i class="devicon-css3-plain" aria-hidden="true"></i>
+            <!-- Icon for CSS -->
+            <p>CSS3</p>
+          </div>
+          <div class="skill">
+            <i class="devicon-javascript-plain" aria-hidden="true"></i>
+            <!-- Icon for JavaScript -->
+            <p>JavaScript</p>
+          </div>
+          <div class="skill">
+            <i class="devicon-react-original" aria-hidden="true"></i>
+            <!-- Icon for React -->
+            <p>React</p>
+          </div>
+          <div class="skill">
+            <i class="devicon-typescript-plain" aria-hidden="true"></i>
+            <!-- Icon for TypeScript -->
+            <p>TypeScript</p>
+          </div>
+          <!-- Add more skills here as needed -->
+        </div>
+      </section>
+
+      <!-- Project Section -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project coming-soon">
+            <h3>Project Coming Soon</h3>
+            <p>I'm currently working on some exciting projects. Stay tuned!</p>
+          </article>
+          <article class="project coming-soon">
+            <h3>Project Coming Soon</h3>
+            <p>More projects are on the way. Check back soon!</p>
+          </article>
+          <!-- You can add more placeholders for future projects -->
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+          <p>
+            If you have any questions or would like to collaborate, feel free to
+            reach out!
+          </p>
+          <ul>
+            <li>
+              Email:
+              <a href="mailto:your.email@example.com">webfolio@example.com</a>
+            </li>
+            <li>
+              LinkedIn:
+              <a
+                href="https://linkedin.com/in/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Your LinkedIn</a
+              >
+            </li>
+            <li>
+              GitHub:
+              <a
+                href="https://github.com/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Your GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+        <form class="contact-form">
+          <fieldset>
+            <legend>Contact Form</legend>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+            <br /><br />
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <br />
+            <br />
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <br />
+            <br />
+            <button type="submit">Send Message</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Raghavendra. All Rights Reserved.</p>
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
